@@ -1,5 +1,7 @@
-import HomePage from '@/components/Home/HomePage'
+import Achievements from '@/components/achievement/Achievements'
 import MetaGenerator from '@/components/metaGenerator/MetaGenerator'
+import SecuritySolution from '@/components/SecuritySolution'
+import Services from '@/components/services/Services'
 import { CONTACT_META } from '@/constants/meta.constant'
 
 export function getServerSideProps(context) {
@@ -16,7 +18,9 @@ export default function Home(props) {
         <>
             <MetaGenerator {...props} />
             <main>
-                <HomePage />
+                <SecuritySolution />
+                <Services />
+                <Achievements />
             </main>
         </>
     )

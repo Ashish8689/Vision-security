@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useState } from 'react'
 import { useRouter } from 'next/router'
-import Navbar from './navbar/navbar.component'
-import Footer from './Footer'
+import Navbar from './components/navbar/Navbar'
+import Footer from './components/footer/Footer'
 
 const Layout = ({ children }) => {
     const [activeTab, setActiveTab] = useState({})

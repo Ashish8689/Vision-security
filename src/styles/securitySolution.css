@@ -1,0 +1,173 @@
+.security-solution-container .section1 {
+    padding: 100px 0 200px;
+    background: #f9fcfd;
+    overflow: hidden;
+}
+
+.security-solution-container .section-flex {
+    display: flex;
+    flex: 100%;
+    flex-wrap: wrap;
+}
+
+.security-solution-container .section-left {
+    flex: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.security-solution-container .content .subtitle {
+    font-size: 20px;
+    opacity: 0.8;
+    color: var(--main-color);
+    margin: 0;
+}
+
+.security-solution-container .content .title {
+    position: relative;
+    max-width: 600px;
+    font-size: 70px;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+}
+
+.security-solution-container .content .title::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 70px;
+    height: 3px;
+    background: var(--main-color);
+}
+
+.security-solution-container .content .para {
+    padding-top: 20px;
+    max-width: 600px;
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--bold-color);
+    opacity: 0.7;
+}
+
+.security-solution-container .section-right {
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.security-solution-container .section1 .section-img-container {
+    position: relative;
+    z-index: 3;
+}
+
+.security-solution-container .section1 .section-img-container .cover-image {
+    text-align: center;
+    padding: 15px;
+}
+
+.security-solution-container .section1 .section-img-container img {
+    max-width: 550px;
+}
+
+/* **************  CheckList start   **************** */
+
+.checklist-container {
+    padding-top: 20px;
+}
+.checklist-container h1 {
+    font-size: 24px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.checklist-container p {
+    font-size: 16px;
+    padding-left: 10px;
+    font-weight: 400;
+    color: var(--bold-color);
+    opacity: 0.7;
+}
+
+.check-icon-container {
+    background: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.check-icon-container .icon {
+    width: 45%;
+    fill: var(--main-color);
+}
+
+@media (max-width: 1200px) {
+    .section2 .section-flex {
+        height: 600px;
+    }
+
+    .security-solution-container .section1 .section-img-container img {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 990px) {
+    .security-solution-container .section-left,
+    .security-solution-container .section-right {
+        flex: 100%;
+        justify-content: center;
+        padding: 20px 0;
+    }
+
+    .security-solution-container .content .title {
+        margin: 0 auto;
+        font-size: 35px;
+    }
+
+    .security-solution-container .content {
+        text-align: center;
+    }
+
+    .security-solution-container .content .para {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .security-solution-container .section1 .section-img-container img {
+        max-width: 400px;
+    }
+
+    .roadside-floating-image {
+        width: 150px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 500px) {
+    .security-solution-container .section1 {
+        padding: 60px 0;
+    }
+
+    .security-solution-container .content .subtitle {
+        font-size: 22px;
+    }
+
+    .security-solution-container .content .title {
+        font-size: 30px;
+    }
+
+    .security-solution-container .content .para {
+        font-size: 14px;
+    }
+
+    .security-solution-container .section1 .section-img-container img {
+        max-width: 300px;
+    }
+}
