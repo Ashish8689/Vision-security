@@ -46,3 +46,7 @@ body.active {
 a {
     text-decoration: none !important;
 }
+
+.p-0 {
+    padding: 0;
+}

@@ -157,7 +157,7 @@ function Footer() {
                             <h4 className="footer-column-header">
                                 Get Free Estimate
                             </h4>
-                            <p className="footer-para">
+                            <p className="footer-para p-0">
                                 A network of smart two-wheeler repair company
                                 that primarily focus on addressing the customer
                                 needs by providing standardized services at
