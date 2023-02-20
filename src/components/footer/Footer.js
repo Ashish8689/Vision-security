@@ -178,7 +178,7 @@ function Footer() {
             <div className="footer-copyright-container">
                 <div className="container">
                     <p className="copyright">
-                        <span>Visio Fire & Security Systems</span> © 2023 All
+                        <span>Vision Fire & Security Systems</span> © 2023 All
                         Right Reserved
                     </p>
                     <p className="copyright">

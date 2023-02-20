@@ -1,5 +1,3 @@
-import Call from '@/components/assets/svg_icons/Call'
-
 export const SERVICE_LIST = [
     {
         icon: '/images/service/fire-fighting.png',

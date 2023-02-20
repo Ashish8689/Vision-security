@@ -1,5 +1,6 @@
 import Achievements from '@/components/achievement/Achievements'
 import Banner from '@/components/banner/Banner'
+import QuickService from '@/components/banner/QuickService'
 import MetaGenerator from '@/components/metaGenerator/MetaGenerator'
 import Purpose from '@/components/purpose/Purpose'
 import SecuritySolution from '@/components/SecuritySolution'
@@ -22,6 +23,7 @@ export default function Home(props) {
             <MetaGenerator {...props} />
             <main>
                 <Banner />
+                <QuickService />
                 <SecuritySolution />
                 <Services />
                 <Achievements />
