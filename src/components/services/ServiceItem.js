@@ -1,11 +1,12 @@
 import React from 'react'
-import Call from '../assets/svg_icons/Call'
 import Check from '../assets/svg_icons/Check'
 
 const ServiceItem = ({ data: { icon, title, description, link } }) => {
     return (
         <div className="service-block">
-            <div className="service-icon-container">{icon}</div>
+            <div className="service-icon-container">
+                <img src={icon} alt={title} className="icon" />
+            </div>
 
             <div className="service-content">
                 <h1 className="service-title">{title}</h1>
