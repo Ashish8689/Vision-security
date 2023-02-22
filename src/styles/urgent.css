@@ -3,8 +3,10 @@
     top: 0;
     left: 50%;
     width: 80%;
-    padding: 80px 50px;
-    background: var(--main-color);
+    padding: 70px 50px;
+    background: url('/images/quick-bg.png') no-repeat;
+    background-position: center;
+    background-size: cover;
     transform: translate(-50%, -50%);
 }
 
@@ -18,12 +20,14 @@
     font-size: 45px;
     color: var(--title-color);
     font-weight: 700;
+    margin-bottom: 4px;
 }
 
 .urgent-content p {
-    font-size: 18px;
+    font-size: 15px;
     color: var(--title-color);
-    opacity: 0.8;
+    opacity: 0.9;
+    margin: 0;
 }
 
 .urgent-number-container {

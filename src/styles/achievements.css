@@ -1,7 +1,9 @@
 .achievementContainer {
-    background: var(--main-color);
-    padding: 20px 0;
+    padding: 50px 0;
     overflow-x: hidden;
+    background: url('/images/quick-bg.png') no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .achievementContainer .col-md-3 {
@@ -14,10 +16,6 @@
 
 .achievement-block {
     text-align: center;
-}
-
-.achievement-content-container {
-    padding-top: 25px;
 }
 
 .achievement-stats {
@@ -33,6 +31,7 @@
     font-size: 16px;
     font-weight: 500;
     color: var(--title-color);
+    margin: 0;
 }
 
 @media only screen and (max-width: 768px) {
