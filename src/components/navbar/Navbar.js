@@ -3,6 +3,7 @@ import Call from '../assets/svg_icons/Call'
 
 import Facebook from '../assets/svg_icons/Facebook'
 import Instagram from '../assets/svg_icons/Instagram'
+import Mail from '../assets/svg_icons/Mail'
 import Whatsapp from '../assets/svg_icons/Whatsapp'
 
 function Navbar() {
@@ -44,11 +45,23 @@ function Navbar() {
     return (
         <div className={nav ? 'nav active' : 'nav'}>
             <div className="nav-media-container">
-                <p className="nav-call">
-                    {' '}
-                    <Call className="icon" />
-                    <a href="tel: 6280205668"> 6280205668</a>{' '}
-                </p>
+                <div className="d-flex">
+                    <p className="nav-call me-lg-4">
+                        <div className="icon-container">
+                            <Call className="icon" />
+                        </div>
+                        <a href="tel: 6280205668"> +91 6280205668</a>
+                    </p>
+
+                    <p className="nav-call">
+                        <div className="icon-container">
+                            <Mail className="icon" />
+                        </div>
+                        <a href="mailto: support@vision.com">
+                            support@vision.com
+                        </a>
+                    </p>
+                </div>
 
                 <div className="social-icon-container">
                     <div className="social-icon-block">
