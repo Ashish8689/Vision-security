@@ -56,6 +56,7 @@ function Gallery() {
                                     src={image}
                                     alt="ktr Machinery"
                                     fill={true}
+                                    sizes={100}
                                 />
 
                                 <div className="gallery-icon-container">
