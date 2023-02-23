@@ -1,3 +1,5 @@
+import { NAV_LINKS } from '@/constants/navbar.constant'
+import Link from 'next/link'
 import React, { useState, useEffect } from 'react'
 import Call from '../assets/svg_icons/Call'
 import Facebook from '../assets/svg_icons/Facebook'
@@ -96,37 +98,25 @@ function Navbar() {
 
             <div className="nav-container">
                 <div className="logo-block">
-                    <a href="#home">
+                    <Link href="/" prefetch={false}>
                         {/* <img
                             className="logo"
                             src="/images/logo/logo1.png"
                             alt="ktr machinery"
                         ></img> */}
                         <h2>Vision Security</h2>
-                    </a>
+                    </Link>
                 </div>
 
                 <div className="side-menu">
                     <ul className={open ? 'nav-list active' : 'nav-list'}>
-                        <li className="nav-link">
-                            <a href="#home">Home</a>
-                        </li>
-
-                        <li className="nav-link">
-                            <a href="#service">Service</a>
-                        </li>
-
-                        <li className="nav-link">
-                            <a href="#booking">Booking</a>
-                        </li>
-
-                        <li className="nav-link">
-                            <a href="#team">Team</a>
-                        </li>
-
-                        <li className="nav-link">
-                            <a href="#footer">Contact Us</a>
-                        </li>
+                        {NAV_LINKS.map(({ label, link }) => (
+                            <span className="nav-link">
+                                <Link href={link} prefetch={false}>
+                                    {label}
+                                </Link>
+                            </span>
+                        ))}
                     </ul>
                 </div>
 
@@ -154,40 +144,17 @@ function Navbar() {
 
                     <div className="navigation-link">
                         <ul className="nav-list">
-                            <li
-                                className="nav-link"
-                                onClick={handleNavLinkClick}
-                            >
-                                <a href="#home">Home</a>
-                            </li>
+                            {NAV_LINKS.map(({ label, link }) => (
+                                <span
+                                    className="nav-link"
+                                    onClick={handleNavLinkClick}
+                                >
+                                    <Link href={link} prefetch={false}>
+                                        {label}
+                                    </Link>
+                                </span>
+                            ))}
 
-                            <li
-                                className="nav-link"
-                                onClick={handleNavLinkClick}
-                            >
-                                <a href="#service">Service</a>
-                            </li>
-
-                            <li
-                                className="nav-link"
-                                onClick={handleNavLinkClick}
-                            >
-                                <a href="#booking">Booking</a>
-                            </li>
-
-                            <li
-                                className="nav-link"
-                                onClick={handleNavLinkClick}
-                            >
-                                <a href="#team">Team</a>
-                            </li>
-
-                            <li
-                                className="nav-link"
-                                onClick={handleNavLinkClick}
-                            >
-                                <a href="#footer">Contact Us</a>
-                            </li>
                             <li>
                                 <div className="social-icon-container">
                                     <div className="social-icon-block">

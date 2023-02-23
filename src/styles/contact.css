@@ -1,0 +1,172 @@
+.contact-page {
+    background: var(--background-light-color);
+}
+
+.contact-page .container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* ***********  Header section  ************ */
+.header-content {
+    margin-bottom: 30px;
+}
+
+.header-content h3 {
+    position: relative;
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 10px;
+    color: var(--bold-color);
+}
+
+.header-content h3::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 2px;
+    width: 60px;
+    background: var(--main-color);
+}
+
+/* *********  Form  ********** */
+
+.form-section {
+    padding: 50px;
+    background-color: var(--title-color);
+    border-radius: 4px;
+}
+
+form .form-group {
+    margin-bottom: 10px;
+}
+
+form label {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 0 10px 0px;
+    color: var(--text-color);
+}
+
+form .col-md-12 {
+    padding: 0;
+}
+
+form input {
+    padding: 5px 10px;
+    height: 50px;
+    width: 100%;
+    color: var(--bold-color);
+    font-weight: 600;
+    border: none;
+    background: var(--background-light-color);
+    border-radius: 8px;
+    outline: none;
+}
+
+form textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-weight: 600;
+    background: var(--background-light-color);
+    border-radius: 8px;
+    resize: none;
+}
+
+.form-button {
+    padding: 20px 0 0;
+}
+
+form .button {
+    padding: 12px 50px;
+    border: 2px solid var(--title-color);
+    background: transparent;
+    border-radius: 4px;
+    color: var(--title-color);
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+}
+
+form .button:hover {
+    background: var(--title-color);
+    color: var(--main-color);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* *************  Get In Touch  ****************** */
+
+.get-in-touch-container {
+    padding: 50px 20px;
+}
+
+/* *********** Contact Block  ************ */
+
+.contact-block .contact-content-container {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.contact-block .contact-content-container .contact-content {
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.contact-block .contact-content-container .contact-icon-container {
+    width: 50px;
+    height: 50px;
+    background: var(--title-color);
+    border-radius: 4px;
+    display: grid;
+    place-items: center;
+}
+
+.contact-block .contact-content-container .contact-icon-container .icon {
+    width: 24px;
+    fill: var(--main-color);
+    opacity: 0.7;
+}
+
+.contact-block .contact-content-container .contact-content h4 {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--bold-color);
+    opacity: 0.8;
+}
+
+.contact-block .contact-content-container .contact-content p {
+    max-width: 400px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--bold-color);
+    opacity: 0.8;
+}
+
+.contact-block .contact-content-container .contact-content a {
+    width: 200px;
+    color: var(--bold-color);
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.contact-block .contact-content-container .contact-content a:hover {
+    opacity: 1;
+}
+
+@media (max-width: 767px) {
+    .form-section {
+        padding: 50px 20px;
+    }
+    form .form-group,
+    form .form-group-inner {
+        margin-bottom: 20px;
+    }
+}
