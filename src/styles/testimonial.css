@@ -42,6 +42,13 @@
     align-items: center;
 }
 
+.testimonial-section .swiper-button-prev {
+    margin-left: -5px;
+}
+.testimonial-section .swiper-button-next {
+    margin-right: -5px;
+}
+
 .testimonial-section .swiper-button-prev,
 .testimonial-section .swiper-button-next {
     margin-right: -10px;
@@ -192,6 +199,7 @@
 
 @media (max-width: 460px) {
     .testimonial-block .testimonial-content .testimonial-para {
-        max-width: 320px;
+        max-width: 280px;
+        line-height: 25px;
     }
 }

@@ -98,9 +98,15 @@
     color: var(--bold-color);
 }
 
+.banner-container .swiper-button-prev {
+    margin-left: -5px;
+}
+.banner-container .swiper-button-next {
+    margin-right: -5px;
+}
+
 .banner-container .swiper-button-prev,
 .banner-container .swiper-button-next {
-    margin-right: -10px;
     background: var(--title-color) !important;
     width: 50px !important;
     height: 50px !important;

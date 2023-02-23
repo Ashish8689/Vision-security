@@ -12,7 +12,7 @@ function Footer() {
         <div className="footer" id="footer">
             <div className="footer-header">
                 <div className="row">
-                    <div className="col-lg-4 col-md-6 col-sm-6 col-6">
+                    <div className="col-lg-4 col-md-12 col-12">
                         <div className="mini-flex">
                             <div className="mini-flex-left">
                                 <Mail className="icon" />
@@ -26,7 +26,7 @@ function Footer() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 col-sm-6 col-6">
+                    <div className="col-lg-4 col-md-12 col-12">
                         <div className="mini-flex">
                             <div className="mini-flex-left">
                                 <Call className="icon" />

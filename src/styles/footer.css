@@ -243,14 +243,11 @@
         padding: 20px 0;
         display: flex;
         align-items: center;
-        border-right: 1px solid var(--main-color);
+        border: 1px solid var(--main-color);
     }
 
-    .footer-header .col-lg-4:nth-child(2) {
+    .footer-header .col-lg-4:nth-child(1) {
         border: none;
-    }
-    .footer-header .col-lg-4:nth-child(3) {
-        border-top: 1px solid var(--main-color);
     }
 }
 

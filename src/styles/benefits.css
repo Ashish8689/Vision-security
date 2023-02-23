@@ -137,3 +137,15 @@
         font-size: 14px;
     }
 }
+
+@media (max-width: 400px) {
+    .benefit-block .icon-container {
+        width: 50px;
+        height: 50px;
+    }
+
+    .benefit-block .icon {
+        width: 20px;
+        height: 20px;
+    }
+}
