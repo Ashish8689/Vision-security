@@ -77,6 +77,36 @@
     }
 }
 
+@media only screen and (max-width: 1024px) {
+    .urgentContainer {
+        width: 90%;
+    }
+
+    .urgentContainer {
+        padding: 50px 30px;
+    }
+
+    .urgentContainer .urgent-icon-container {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+
+    .urgentContainer .urgent-icon-container .icon {
+        width: 25px;
+        animation: move 2s linear infinite;
+    }
+
+    .urgentContainer .urgent-icon-container .icon path {
+        fill: var(--main-color);
+    }
+
+    .urgent-number-container h1,
+    .urgent-number-container a {
+        font-size: 30px;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .urgentContainer {
         padding: 50px 0;

@@ -122,6 +122,12 @@
     margin: 10px 3px;
 }
 
+@media (max-width: 1000px) {
+    .testimonial-block .testimonial-content .testimonial-para {
+        max-width: 500px;
+    }
+}
+
 @media (max-width: 768px) {
     .testimonial-section .swiper-container {
         height: 550px;

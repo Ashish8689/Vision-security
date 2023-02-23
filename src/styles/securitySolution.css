@@ -118,6 +118,10 @@
 }
 
 @media (max-width: 990px) {
+    .security-solution-container .section1 {
+        padding: 100px 0 150px;
+    }
+
     .security-solution-container .section-left,
     .security-solution-container .section-right {
         flex: 100%;
@@ -125,9 +129,18 @@
         padding: 20px 0;
     }
 
+    .security-solution-container .section-left {
+        order: 1;
+    }
+
     .security-solution-container .content .title {
         margin: 0 auto;
-        font-size: 35px;
+        padding-top: 30px;
+    }
+
+    .security-solution-container .content .title::before {
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     .security-solution-container .content {
@@ -135,6 +148,18 @@
     }
 
     .security-solution-container .content .para {
+        max-width: 100%;
+    }
+
+    .checklist-container {
+        text-align: left;
+    }
+
+    .security-solution-container .section1 .section-img-container .cover-image {
+        padding: 0;
+    }
+
+    .security-solution-container .section1 .section-img-container img {
         max-width: 100%;
     }
 }

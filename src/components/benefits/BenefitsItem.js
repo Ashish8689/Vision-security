@@ -2,7 +2,7 @@ import React from 'react'
 
 const BenefitsItem = ({ data: { icon, title, para } }) => {
     return (
-        <div className="col-md-6 col-12 mb-4">
+        <div className="col-lg-6 col-12 mb-4">
             <div className="benefit-block">
                 <div className="row">
                     <div className="col-4 d-flex justify-content-center align-items-center">

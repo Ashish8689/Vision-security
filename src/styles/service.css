@@ -155,3 +155,33 @@
 .service-block:hover .service-content .service-button .icon {
     fill: var(--title-color);
 }
+
+/* ****************  Media Query  ****************** */
+
+@media only screen and (max-width: 1024px) {
+    .service-section {
+        padding: 240px 0 100px;
+    }
+
+    .service-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+    }
+
+    .service-container .service-block:nth-child(7) {
+        border-left: var(--service-border);
+    }
+
+    .service-container .service-block:nth-child(4) {
+        border-bottom: none;
+    }
+
+    .service-container .service-block:nth-child(2),
+    .service-container .service-block:nth-child(4) {
+        border-right: var(--service-border);
+    }
+    .service-container .service-block:nth-child(3) {
+        border-right: none;
+    }
+}

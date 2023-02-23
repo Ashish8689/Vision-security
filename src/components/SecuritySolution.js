@@ -34,12 +34,12 @@ function SecuritySolution() {
 
                                 <div className="checklist-container">
                                     <div className="row">
-                                        <div className="col-lg-1">
+                                        <div className="col-lg-1 col-md-1 col-1">
                                             <div className="check-icon-container">
                                                 <Check className="icon" />
                                             </div>
                                         </div>
-                                        <div className="col-lg-11">
+                                        <div className="col-lg-11 col-md-11 col-11">
                                             <h1>
                                                 All Your Security System At One
                                                 Place
@@ -53,12 +53,12 @@ function SecuritySolution() {
                                         </div>
                                     </div>
                                     <div className="row pt-3">
-                                        <div className="col-lg-1">
+                                        <div className="col-lg-1 col-md-1 col-1">
                                             <div className="check-icon-container">
                                                 <Check className="icon" />
                                             </div>
                                         </div>
-                                        <div className="col-lg-11">
+                                        <div className="col-lg-11 col-md-11 col-11">
                                             <h1>
                                                 All Your Security System At One
                                                 Place

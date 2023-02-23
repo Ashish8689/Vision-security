@@ -9,7 +9,8 @@
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    grid-column-gap: 50px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
 }
 
 /* *********  Service Block   ********** */
