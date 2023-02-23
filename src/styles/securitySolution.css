@@ -165,12 +165,20 @@
 }
 
 @media (max-width: 767px) {
+    .security-solution-container .section1 {
+        padding: 60px 0;
+    }
+
     .security-solution-container .content .title {
         font-size: 50px;
     }
 }
 
 @media (max-width: 600px) {
+    .security-solution-container .content .title {
+        font-size: 40px;
+    }
+
     .security-solution-container .section1 .section-img-container img {
         max-width: 400px;
     }
@@ -178,6 +186,20 @@
     .roadside-floating-image {
         width: 150px;
         height: 100px;
+    }
+
+    .checklist-container h1 {
+        font-size: 20px;
+    }
+
+    .checklist-container p {
+        font-size: 14px;
+        padding-left: 8px;
+    }
+
+    .check-icon-container {
+        width: 30px;
+        height: 30px;
     }
 }
 
@@ -188,10 +210,6 @@
 
     .security-solution-container .content .subtitle {
         font-size: 22px;
-    }
-
-    .security-solution-container .content .title {
-        font-size: 30px;
     }
 
     .security-solution-container .content .para {

@@ -45,7 +45,7 @@ function Navbar() {
         <div className={nav ? 'nav active' : 'nav'}>
             <div className="nav-media-container">
                 <div className="d-flex">
-                    <div className="nav-call me-lg-4">
+                    <div className="nav-call me-4">
                         <div className="icon-container">
                             <Call className="icon" />
                         </div>

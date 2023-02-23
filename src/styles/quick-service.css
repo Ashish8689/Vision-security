@@ -79,7 +79,17 @@
     margin: 0;
 }
 
+@media (max-width: 991px) {
+    .quick-service-block-container {
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    }
+}
+
 @media (max-width: 767px) {
+    .quick-service-section {
+        margin-top: -100px;
+    }
+
     .quick-service-block-container {
         grid-column-gap: 20px;
         grid-row-gap: 20px;

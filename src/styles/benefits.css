@@ -110,4 +110,30 @@
     .benefit-para {
         font-size: 14px;
     }
+
+    .benefit-block .icon-container {
+        width: 60px;
+        height: 60px;
+    }
+
+    .benefit-block .icon {
+        width: 22px;
+        height: 22px;
+    }
+}
+
+@media (max-width: 599px) {
+    .benefit-header .benefit-title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    /* ******* Block   ******** */
+    .benefit-heading {
+        font-size: 22px;
+    }
+
+    .benefit-para {
+        font-size: 14px;
+    }
 }

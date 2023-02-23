@@ -345,3 +345,20 @@
         opacity: 0.8;
     }
 }
+
+@media only screen and (max-width: 560px) {
+    .nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 76px;
+        z-index: 999;
+        transition: 0.3s ease-in-out;
+        flex: initial;
+        background: var(--title-color);
+    }
+
+    .nav-media-container {
+        display: none;
+    }
+}

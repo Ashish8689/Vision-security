@@ -11,54 +11,52 @@ function Footer() {
     return (
         <div className="footer" id="footer">
             <div className="footer-header">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-4 col-md-6 col-sm-6 col-6">
-                            <div className="mini-flex">
-                                <div className="mini-flex-left">
-                                    <Mail className="icon" />
-                                </div>
-                                <div className="mini-flex-right">
-                                    <h5>
-                                        <a href="mailto:support@ktrmachinery.com">
-                                            support@ktrmachinery.com
-                                        </a>
-                                    </h5>
-                                </div>
+                <div className="row">
+                    <div className="col-lg-4 col-md-6 col-sm-6 col-6">
+                        <div className="mini-flex">
+                            <div className="mini-flex-left">
+                                <Mail className="icon" />
+                            </div>
+                            <div className="mini-flex-right">
+                                <h5>
+                                    <a href="mailto:support@ktrmachinery.com">
+                                        support@ktrmachinery.com
+                                    </a>
+                                </h5>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 col-sm-6 col-6">
-                            <div className="mini-flex">
-                                <div className="mini-flex-left">
-                                    <Call className="icon" />
-                                </div>
-                                <div className="mini-flex-right">
-                                    <h5>
-                                        <a href="tel: 6353753933">
-                                            {' '}
-                                            +91 6353-75-3933
-                                        </a>{' '}
-                                        /{' '}
-                                        <a href="tel: 8355992793">
-                                            {' '}
-                                            +91 8355-99-2793
-                                        </a>
-                                    </h5>
-                                </div>
+                    </div>
+                    <div className="col-lg-4 col-md-6 col-sm-6 col-6">
+                        <div className="mini-flex">
+                            <div className="mini-flex-left">
+                                <Call className="icon" />
+                            </div>
+                            <div className="mini-flex-right">
+                                <h5>
+                                    <a href="tel: 6353753933">
+                                        {' '}
+                                        +91 6353-75-3933
+                                    </a>{' '}
+                                    /{' '}
+                                    <a href="tel: 8355992793">
+                                        {' '}
+                                        +91 8355-99-2793
+                                    </a>
+                                </h5>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 col-sm-6 col-6">
-                            <div className="mini-flex">
-                                <div className="mini-flex-left">
-                                    <Location className="icon" />
-                                </div>
-                                <div className="mini-flex-right">
-                                    <h5>
-                                        Shop No 251 , Malwani Gate No 6, near
-                                        Raj Computer Academy, Malad West,
-                                        Mumbai, Maharashtra 400095
-                                    </h5>
-                                </div>
+                    </div>
+                    <div className="col-lg-4 col-md-12 col-12">
+                        <div className="mini-flex">
+                            <div className="mini-flex-left">
+                                <Location className="icon" />
+                            </div>
+                            <div className="mini-flex-right">
+                                <h5>
+                                    Shop No 251 , Malwani Gate No 6, near Raj
+                                    Computer Academy, Malad West, Mumbai,
+                                    Maharashtra 400095
+                                </h5>
                             </div>
                         </div>
                     </div>
