@@ -125,15 +125,14 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .swiper-content-container {
-        position: absolute;
-        left: 10%;
-        width: 100%;
+        width: 500px;
     }
 
     .swiper-content-title {
         font-size: 50px;
+        line-height: 60px;
     }
 }
 

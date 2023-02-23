@@ -128,9 +128,9 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .testimonial-section .swiper-container {
-        height: 550px;
+        height: 500px;
     }
 
     .testimonial-section .swiper-slide {
@@ -138,7 +138,11 @@
     }
 
     .testimonial-header .testimonial-title {
-        font-size: 40px;
+        font-size: 50px;
+    }
+
+    .testimonial-block .testimonial-content .testimonial-para {
+        max-width: 380px;
     }
 }
 

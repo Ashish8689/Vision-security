@@ -164,6 +164,12 @@
     }
 }
 
+@media (max-width: 767px) {
+    .security-solution-container .content .title {
+        font-size: 50px;
+    }
+}
+
 @media (max-width: 600px) {
     .security-solution-container .section1 .section-img-container img {
         max-width: 400px;

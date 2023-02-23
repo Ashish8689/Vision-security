@@ -1,6 +1,5 @@
 .purpose-section {
     padding: 150px 0;
-
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.15)),
         url('/images/purpose.png') no-repeat;
     background-position: center;
@@ -49,4 +48,10 @@
 }
 .button-container a:hover {
     opacity: 0.8;
+}
+
+@media only screen and (max-width: 767px) {
+    .purpose-header .purpose-title {
+        font-size: 50px;
+    }
 }

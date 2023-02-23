@@ -185,3 +185,10 @@
         border-right: none;
     }
 }
+
+@media only screen and (max-width: 767px) {
+    .service-header-block h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+}

@@ -36,10 +36,11 @@ function Gallery() {
                             slidesPerView: 1,
                         },
                         500: {
-                            slidesPerView: 1,
+                            slidesPerView: 2,
                         },
                         640: {
-                            slidesPerView: 4,
+                            slidesPerView: 3,
+                            spaceBetween: 20,
                         },
                         768: {
                             slidesPerView: 3,
