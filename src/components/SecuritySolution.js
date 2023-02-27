@@ -1,9 +1,9 @@
 import React from 'react'
 import Check from './assets/svg_icons/Check'
 
-function SecuritySolution() {
+function SecuritySolution({ className }) {
     return (
-        <div className="security-solution-container">
+        <div className={`security-solution-container ${className}`}>
             <div className="section1">
                 <div className="container">
                     <div className="section-flex">

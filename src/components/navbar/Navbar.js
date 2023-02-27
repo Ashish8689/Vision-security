@@ -110,8 +110,8 @@ function Navbar() {
 
                 <div className="side-menu">
                     <ul className={open ? 'nav-list active' : 'nav-list'}>
-                        {NAV_LINKS.map(({ label, link }) => (
-                            <span className="nav-link">
+                        {NAV_LINKS.map(({ label, link }, index) => (
+                            <span className="nav-link" key={index}>
                                 <Link href={link} prefetch={false}>
                                     {label}
                                 </Link>
@@ -144,10 +144,11 @@ function Navbar() {
 
                     <div className="navigation-link">
                         <ul className="nav-list">
-                            {NAV_LINKS.map(({ label, link }) => (
+                            {NAV_LINKS.map(({ label, link }, index) => (
                                 <span
                                     className="nav-link"
                                     onClick={handleNavLinkClick}
+                                    key={index}
                                 >
                                     <Link href={link} prefetch={false}>
                                         {label}
