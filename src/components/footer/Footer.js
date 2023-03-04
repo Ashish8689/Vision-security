@@ -1,3 +1,5 @@
+import { NAV_LINKS } from '@/constants/navbar.constant'
+import Link from 'next/link'
 import React from 'react'
 import Call from '../assets/svg_icons/Call'
 import Facebook from '../assets/svg_icons/Facebook'
@@ -112,42 +114,26 @@ function Footer() {
                         <div className="col-lg-2 col-md-6 col-sm-6 col-12">
                             <h4 className="footer-column-header">Company</h4>
                             <ul>
-                                <li>
-                                    <a href="#home">Home</a>
-                                </li>
-                                <li>
-                                    <a href="#service">Service</a>
-                                </li>
-                                <li>
-                                    <a href="#booking">Booking</a>
-                                </li>
-                                <li>
-                                    <a href="#team">Team</a>
-                                </li>
-                                <li>
-                                    <a href="#footer">Contact Us</a>
-                                </li>
+                                {NAV_LINKS.map(({ label, link }) => (
+                                    <li>
+                                        <Link href={link} prefetch={false}>
+                                            {label}
+                                        </Link>
+                                    </li>
+                                ))}
                             </ul>
                         </div>
 
                         <div className="col-lg-2 col-md-6 col-sm-6 col-12">
                             <h4 className="footer-column-header">Company</h4>
                             <ul>
-                                <li>
-                                    <a href="#home">Home</a>
-                                </li>
-                                <li>
-                                    <a href="#service">Service</a>
-                                </li>
-                                <li>
-                                    <a href="#booking">Booking</a>
-                                </li>
-                                <li>
-                                    <a href="#team">Team</a>
-                                </li>
-                                <li>
-                                    <a href="#footer">Contact Us</a>
-                                </li>
+                                {NAV_LINKS.map(({ label, link }) => (
+                                    <li>
+                                        <Link href={link} prefetch={false}>
+                                            {label}
+                                        </Link>
+                                    </li>
+                                ))}
                             </ul>
                         </div>
 
