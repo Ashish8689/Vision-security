@@ -115,7 +115,7 @@ function Footer() {
                             <h4 className="footer-column-header">Company</h4>
                             <ul>
                                 {NAV_LINKS.map(({ label, link }) => (
-                                    <li>
+                                    <li key={label}>
                                         <Link href={link} prefetch={false}>
                                             {label}
                                         </Link>
@@ -128,7 +128,7 @@ function Footer() {
                             <h4 className="footer-column-header">Company</h4>
                             <ul>
                                 {NAV_LINKS.map(({ label, link }) => (
-                                    <li>
+                                    <li key={label}>
                                         <Link href={link} prefetch={false}>
                                             {label}
                                         </Link>

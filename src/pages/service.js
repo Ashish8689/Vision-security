@@ -4,7 +4,7 @@ import Cctv from '@/components/servicePages/Cctv'
 import FireAlarm from '@/components/servicePages/FireAlarm'
 import FireFighting from '@/components/servicePages/FireFighting'
 import NGS from '@/components/servicePages/NGS'
-import PAsystem from '@/components/servicePages/Pasystem'
+import PAsystem from '@/components/servicePages/PAsystem'
 import { SERVICE_PAGE_LIST } from '@/constants/service.constant'
 import React, { useCallback, useState } from 'react'
 
