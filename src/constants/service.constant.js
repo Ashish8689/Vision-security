@@ -42,3 +42,78 @@ export const SERVICE_LIST = [
         link: '',
     },
 ]
+
+export const SERVICE_PAGE_LIST = [
+    {
+        label: 'Firefighting',
+        key: 'FF',
+    },
+    {
+        label: 'Fire Alarm',
+        key: 'FA',
+    },
+    {
+        label: 'CCTV',
+        key: 'CV',
+    },
+    {
+        label: 'Access Control',
+        key: 'AC',
+    },
+    {
+        label: 'PA System',
+        key: 'PAS',
+    },
+    {
+        label: 'NOVEC Gas Suppression',
+        key: 'NGS',
+    },
+]
+
+export const FIRE_FIGHTING_KEY_HIGHLIGHT = [
+    'Lorem ipsum dolor sit, amet consectetur',
+    'Lorem ipsum dolor sit, amet consectetur',
+    'Lorem ipsum dolor sit, amet consectetur',
+    'Lorem ipsum dolor sit, amet consectetur',
+    'Lorem ipsum dolor sit, amet consectetur',
+]
+
+export const ACCESS_CONTROL_KEY_HIGHLIGHT = [
+    'Lorem ipsum dolor sit, amet consectetur',
+    'Lorem ipsum dolor sit, amet consectetur',
+    'Lorem ipsum dolor sit, amet consectetur',
+    'Lorem ipsum dolor sit, amet consectetur',
+    'Lorem ipsum dolor sit, amet consectetur',
+]
+
+export const CCTV_KEY_HIGHLIGHT = [
+    'Lorem ipsum dolor sit, amet consectetur',
+    'Lorem ipsum dolor sit, amet consectetur',
+    'Lorem ipsum dolor sit, amet consectetur',
+    'Lorem ipsum dolor sit, amet consectetur',
+    'Lorem ipsum dolor sit, amet consectetur',
+]
+
+export const FIRE_ALARM_KEY_HIGHLIGHT = [
+    'Lorem ipsum dolor sit, amet consectetur',
+    'Lorem ipsum dolor sit, amet consectetur',
+    'Lorem ipsum dolor sit, amet consectetur',
+    'Lorem ipsum dolor sit, amet consectetur',
+    'Lorem ipsum dolor sit, amet consectetur',
+]
+
+export const NGS_KEY_HIGHLIGHT = [
+    'Lorem ipsum dolor sit, amet consectetur',
+    'Lorem ipsum dolor sit, amet consectetur',
+    'Lorem ipsum dolor sit, amet consectetur',
+    'Lorem ipsum dolor sit, amet consectetur',
+    'Lorem ipsum dolor sit, amet consectetur',
+]
+
+export const PA_SYSTEM_KEY_HIGHLIGHT = [
+    'Lorem ipsum dolor sit, amet consectetur',
+    'Lorem ipsum dolor sit, amet consectetur',
+    'Lorem ipsum dolor sit, amet consectetur',
+    'Lorem ipsum dolor sit, amet consectetur',
+    'Lorem ipsum dolor sit, amet consectetur',
+]

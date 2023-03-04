@@ -187,8 +187,6 @@ function Navbar() {
                                     </div>
                                 </div>
                             </li>
-
-                            <li>Mumbai</li>
                         </ul>
                     </div>
                 </div>
