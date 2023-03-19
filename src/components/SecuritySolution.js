@@ -25,11 +25,12 @@ function SecuritySolution({ className }) {
                                     Best Solution For Security System
                                 </h1>
                                 <p className="para">
-                                    Vestibulum tristique ante sit amet fringilla
-                                    pulvinar. Maecenas vitae placerat augue.
-                                    Donec turpis nunc, pulvinar vel sodales
-                                    eget, convallis nec odio. Donec nec quam
-                                    tincidunt, gravida sem ac, malesuada libero.
+                                    "Vision Fire & Security System" are one of
+                                    the leading Fire Protection and Security
+                                    System Engineers having many years of Market
+                                    Experience. We listen to our customers
+                                    intently to ‘Delight’ them through our
+                                    service.
                                 </p>
 
                                 <div className="checklist-container">
@@ -45,10 +46,11 @@ function SecuritySolution({ className }) {
                                                 Place
                                             </h1>
                                             <p>
-                                                Nunc id justo eu est condimentum
-                                                mollis. Ut consequat, est sit
-                                                amet venenatis ultrices, enim
-                                                odio euismod justo.
+                                                We provide services collectively
+                                                that every company would require
+                                                and full fill their security
+                                                needs with our experience and
+                                                dedication.
                                             </p>
                                         </div>
                                     </div>
@@ -59,15 +61,12 @@ function SecuritySolution({ className }) {
                                             </div>
                                         </div>
                                         <div className="col-lg-11 col-md-11 col-11">
-                                            <h1>
-                                                All Your Security System At One
-                                                Place
-                                            </h1>
+                                            <h1>Our Quality Services</h1>
                                             <p>
-                                                Nunc id justo eu est condimentum
-                                                mollis. Ut consequat, est sit
-                                                amet venenatis ultrices, enim
-                                                odio euismod justo.
+                                                We expertise in undertaking Fire
+                                                and security protection system
+                                                projects having vast experience
+                                                in all types of security systems
                                             </p>
                                         </div>
                                     </div>

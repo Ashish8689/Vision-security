@@ -41,8 +41,8 @@ const Benefits = () => {
                 <div className="benefit-header">
                     <h1 className="benefit-title">Vision Security Benefits</h1>
                     <h2 className="benefit-para">
-                        KTR Machinery always believe's in providing the best
-                        service and benefits to our clients.
+                        Vision Fire and Security System always believe's in
+                        providing the best service and benefits to our clients.
                     </h2>
                 </div>
                 <div className="row mt-5">

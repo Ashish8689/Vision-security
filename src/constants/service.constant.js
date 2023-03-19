@@ -3,42 +3,42 @@ export const SERVICE_LIST = [
         icon: '/images/service/fire-fighting.png',
         title: 'Firefighting',
         description:
-            'Donec vestibulum arcu a arcu scelerisque, quis dignissim turpis semper onec tortor mi, volutpat a iaculis sit amet.',
+            'We are the best Firefighting service provider in the business delivering service from many years. We direct our effort to advise our clients the best possible solution.',
         link: '',
     },
     {
         icon: '/images/service/fire-alarm.png',
         title: ' Fire Alarm',
         description:
-            'Donec vestibulum arcu a arcu scelerisque, quis dignissim turpis semper onec tortor mi, volutpat a iaculis sit amet.',
+            'Fire alarm systems are the devices which detects fire and warn people through audio and visual appliances when smoke, fire carbon monoxide are present in the air.',
         link: '',
     },
     {
         icon: '/images/service/cctv.png',
         title: 'CCTV',
         description:
-            'Donec vestibulum arcu a arcu scelerisque, quis dignissim turpis semper onec tortor mi, volutpat a iaculis sit amet.',
+            'In today’s Scenario CCTV plays a crucial role for security and surveillance purpose. There are different types of CCTV cameras which suit different situations and premises.',
         link: '',
     },
     {
         icon: '/images/service/access-control.png',
         title: 'Access Control',
         description:
-            'Donec vestibulum arcu a arcu scelerisque, quis dignissim turpis semper onec tortor mi, volutpat a iaculis sit amet.',
+            'Access control systems recognize, authenticates and authorizes entry of a person to enter into premise, thereby giving complete protection ensuring security with the system.',
         link: '',
     },
     {
         icon: '/images/service/pa-system.png',
         title: 'PA System',
         description:
-            'Donec vestibulum arcu a arcu scelerisque, quis dignissim turpis semper onec tortor mi, volutpat a iaculis sit amet.',
+            'Our Comprehensive Public Address Systems Solutions including components and maintenance to make your information far-reaching and wide.',
         link: '',
     },
     {
         icon: '/images/service/gas.png',
         title: 'NOVEC Gas Suppression',
         description:
-            'Donec vestibulum arcu a arcu scelerisque, quis dignissim turpis semper onec tortor mi, volutpat a iaculis sit amet.',
+            '3M™ Novec™ 1230 Fire Protection Fluid is a clean agent fire extinguishant which was developed as a halon replacement and hydrofluorocarbon (HFC) alternative.',
         link: '',
     },
 ]

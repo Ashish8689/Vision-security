@@ -8,6 +8,10 @@ export const NAV_LINKS = [
         link: '/service',
     },
     {
+        label: 'System',
+        link: '/system',
+    },
+    {
         label: 'About',
         link: '/about',
     },
