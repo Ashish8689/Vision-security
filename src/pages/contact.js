@@ -18,7 +18,7 @@ const contact = () => {
         const message = formData.get('message')
 
         const url =
-            'https://wa.me/918689868867?text=' +
+            'https://wa.me/919653123581?text=' +
             'Customer Name: ' +
             name +
             '%0a' +
