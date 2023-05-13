@@ -46,25 +46,27 @@ function Navbar() {
     return (
         <div className={nav ? 'nav active' : 'nav'}>
             <div className="nav-media-container">
-                <div className="d-flex">
+                <div className="d-flex justify-content-between w-100">
                     <div className="nav-call me-4">
                         <div className="icon-container">
                             <Call className="icon" />
                         </div>
-                        <a href="tel: 6280205668"> +91 6280205668</a>
+                        <a href="tel:9653123581"> +91 9653123581</a>{' '}
+                        <span className="text-white mx-1">/</span>
+                        <a href="tel:9920558911"> +91 9920558911</a>
                     </div>
 
                     <div className="nav-call">
                         <div className="icon-container">
                             <Mail className="icon" />
                         </div>
-                        <a href="mailto: support@vision.com">
-                            support@vision.com
+                        <a href="mailto: firealarmvision@gmail.com">
+                            firealarmvision@gmail.com
                         </a>
                     </div>
                 </div>
 
-                <div className="social-icon-container">
+                {/* <div className="social-icon-container">
                     <div className="social-icon-block">
                         <a
                             href="https://www.facebook.com/findnvibe/"
@@ -93,18 +95,15 @@ function Navbar() {
                             <Whatsapp className="icon" />
                         </a>
                     </div>
-                </div>
+                </div> */}
             </div>
 
             <div className="nav-container">
                 <div className="logo-block">
                     <Link href="/" prefetch={false}>
-                        {/* <img
-                            className="logo"
-                            src="/images/logo/logo1.png"
-                            alt="ktr machinery"
-                        ></img> */}
-                        <h2>Vision Security</h2>
+                        <h2 className="d-inline">
+                            Vision Fire & Security System
+                        </h2>
                     </Link>
                 </div>
 
@@ -128,9 +127,19 @@ function Navbar() {
                     }
                 >
                     <div className="number">
-                        <a className="nav-link" href="tel: 8355992793">
-                            ( +91 ) 8355992793
-                        </a>
+                        <div>
+                            <a className="nav-link p-0" href="tel:9653123581">
+                                +91 9653123581
+                            </a>
+                            <a className="nav-link p-0" href="tel:9920558911">
+                                +91 9920558911
+                            </a>
+
+                            <a className="nav-link p-0" href="tel:8850642551">
+                                {' '}
+                                +91 8850642551
+                            </a>
+                        </div>
 
                         <div
                             className="hamburger innerHamburger"
@@ -156,7 +165,7 @@ function Navbar() {
                                 </span>
                             ))}
 
-                            <li>
+                            {/* <li>
                                 <div className="social-icon-container">
                                     <div className="social-icon-block">
                                         <a
@@ -186,7 +195,7 @@ function Navbar() {
                                         </a>
                                     </div>
                                 </div>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </div>

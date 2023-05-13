@@ -83,7 +83,7 @@ form textarea {
 form .button {
     padding: 12px 50px;
     border: 2px solid var(--title-color);
-    background: transparent;
+    background: var(--main-color);
     border-radius: 4px;
     color: var(--title-color);
     font-size: 16px;
@@ -93,8 +93,8 @@ form .button {
 }
 
 form .button:hover {
-    background: var(--title-color);
-    color: var(--main-color);
+    background: var(--bold-color);
+    color: var(--title-color);
     font-size: 16px;
     font-weight: 600;
 }

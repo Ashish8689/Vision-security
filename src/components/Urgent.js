@@ -10,9 +10,8 @@ function Urgent() {
                         <div className="urgent-content">
                             <h1>Call us for urgent need!</h1>
                             <p>
-                                Got stuck in middle of your way, no worry we are
-                                here to help you. Give a call, we will be there
-                                to help you.
+                                Got stuck, no worry we are here to help you.
+                                Give a call, we will be there to help you.
                             </p>
                         </div>
                     </div>
@@ -23,7 +22,7 @@ function Urgent() {
                                 <Call className="icon" />
                             </div>
                             <h1>
-                                (+91) <a href="tel:8355992793">8355-99-2793</a>
+                                (+91) <a href="tel:8355992793">96531 23581</a>
                             </h1>
                         </div>
                     </div>

@@ -6,6 +6,36 @@ import PageBanner from '@/components/pageBanner/PageBanner'
 import React from 'react'
 
 const contact = () => {
+    const formSubmit = (e) => {
+        e.preventDefault()
+        const formEl = document.forms.contactForm
+        const formData = new FormData(formEl)
+
+        const name = formData.get('name')
+        const email = formData.get('email')
+        const phone = formData.get('mobile')
+        const service = formData.get('service')
+        const message = formData.get('message')
+
+        const url =
+            'https://wa.me/918689868867?text=' +
+            'Customer Name: ' +
+            name +
+            '%0a' +
+            'Phone Number: ' +
+            phone +
+            '%0a' +
+            'Customer Email: ' +
+            email +
+            '%0a' +
+            'Service: ' +
+            service +
+            '%0a' +
+            'Message: ' +
+            message
+        window.open(url, '_blank').focus()
+    }
+
     return (
         <div className="contact-page">
             <PageBanner page="Contact Us" />
@@ -17,7 +47,11 @@ const contact = () => {
                                 <h3>Enquiry Form</h3>
                             </div>
 
-                            <form onSubmit="sendEmail" method="POST">
+                            <form
+                                method="POST"
+                                onSubmit={formSubmit}
+                                id="contactForm"
+                            >
                                 <div className="form-group row">
                                     <div className="col-md-6 col-12 form-group-inner">
                                         <label for="name">Name</label>
@@ -28,7 +62,7 @@ const contact = () => {
                                         />
                                     </div>
                                     <div className="col-md-6 col-12 form-group-inner">
-                                        <label for="Name">Email</label>
+                                        <label for="email">Email</label>
                                         <input
                                             type="email"
                                             name="email"
@@ -48,17 +82,17 @@ const contact = () => {
                                     </div>
 
                                     <div className="col-md-6 col-12">
-                                        <label for="subject">Subject</label>
+                                        <label for="service">Service</label>
                                         <input
                                             type="text"
-                                            name="subject"
+                                            name="service"
                                             autocomplete="off"
                                         />
                                     </div>
                                 </div>
 
                                 <div className="form-group">
-                                    <label for="Name">Message</label>
+                                    <label for="message">Message</label>
                                     <textarea
                                         name="message"
                                         cols="30"
@@ -88,10 +122,7 @@ const contact = () => {
                                     </div>
                                     <div className="contact-content">
                                         <h4>Our Location</h4>
-                                        <p>
-                                            456, Lorem Street, New York, 33454,
-                                            NY.
-                                        </p>
+                                        <p>Mumbai Maharashtra.</p>
                                     </div>
                                 </div>
 
@@ -101,14 +132,21 @@ const contact = () => {
                                     </div>
                                     <div className="contact-content">
                                         <h4>Phone Number</h4>
+
                                         <p>
-                                            <a href="tel: 6280205668">
-                                                +91 6280205668
+                                            <a href="tel:9653123581">
+                                                +91 9653123581
                                             </a>
                                         </p>
                                         <p>
-                                            <a href="tel: 6280205668">
-                                                +91 6280205668
+                                            <a href="tel:9920558911">
+                                                +91 9920558911
+                                            </a>
+                                        </p>
+
+                                        <p>
+                                            <a href="tel:8850642551">
+                                                +91 8850642551
                                             </a>
                                         </p>
                                     </div>
@@ -121,8 +159,8 @@ const contact = () => {
                                     <div className="contact-content">
                                         <h4>Email Address</h4>
                                         <p>
-                                            <a href="mailto: info@findnvibe.com">
-                                                info@findnvibe.com
+                                            <a href="mailto:  firealarmvision@gmail.com">
+                                                firealarmvision@gmail.com
                                             </a>
                                         </p>
                                     </div>
@@ -132,7 +170,7 @@ const contact = () => {
                     </div>
                 </div>
             </div>
-            <Map />
+            {/* <Map /> */}
         </div>
     )
 }

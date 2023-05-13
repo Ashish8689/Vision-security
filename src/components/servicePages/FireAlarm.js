@@ -6,38 +6,40 @@ const FireAlarm = () => {
     return (
         <div className="service-content-container">
             <div className="service-content-img-container">
-                <img src="/images/slider/s2.jpg" alt="service" />
+                <img src="/images/firealarm.jpeg" alt="firealarm service" />
             </div>
 
             <div className="service-content">
-                <h3>We give the best Services</h3>
+                <h3>Fire Alarm</h3>
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Harum deleniti qui ut perferendis dolor dignissimos earum
-                    autem non commodi. Enim, quo. Libero explicabo numquam
-                    ratione laborum quam, vitae, eveniet quaerat at sint et, ad
-                    dicta obcaecati impedit molestias reprehenderit ipsam?.
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Harum deleniti qui ut perferendis dolor dignissimos earum
-                    autem non commodi. Enim, quo. Libero explicabo numquam
-                    ratione laborum quam, vitae, eveniet quaerat at sint et, ad
-                    dicta obcaecati impedit molestias reprehenderit ipsam?
+                    A fire alarm system has a number of devices working together
+                    to detect and warn people through visual and audio
+                    appliances when smoke, fire, carbon monoxide or other
+                    emergencies are present. These alarms may be activated
+                    automatically from smoke detectors and heat detectors or may
+                    also be activated via manual fire alarm activation devices
+                    such as manual call points or pull stations. Alarms can be
+                    either motorized bells or wall mountable sounders or horns.
                 </p>
 
                 <div className="row my-5">
                     <div className="col-lg-6 col-md-12 col-12">
                         <div className="service-content-mini-img-container">
-                            <img src="/images/slider/s1.png" alt="service" />
+                            <img
+                                src="/images/firealarm.jpeg"
+                                alt="firealarm service"
+                            />
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-12 col-12">
                         <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing
-                            elit. Harum deleniti qui ut perferendis dolor
-                            dignissimos earum autem non commodi. Enim, quo.
-                            Libero explicabo numquam ratione laborum quam,
-                            vitae, eveniet quaerat at sint et, ad dicta
-                            obcaecati impedit molestias reprehenderit ipsam?
+                            They can also be speaker strobes which sound an
+                            alarm, followed by a voice evacuation message which
+                            warns people inside the building not to use the
+                            elevators. Fire alarm sounders can be set to certain
+                            frequencies and different tones including low,
+                            medium and high, depending on the country and
+                            manufacturer of the device.
                         </p>
 
                         <div className="row highlight">
@@ -54,23 +56,6 @@ const FireAlarm = () => {
                         </div>
                     </div>
                 </div>
-
-                <h3>We give the best Services</h3>
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Harum deleniti qui ut perferendis dolor dignissimos earum
-                    autem non commodi. Enim, quo. Libero explicabo numquam
-                    ratione laborum quam, vitae, eveniet quaerat at sint et, ad
-                    dicta obcaecati impedit molestias reprehenderit ipsam?
-                </p>
-
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Harum deleniti qui ut perferendis dolor dignissimos earum
-                    autem non commodi. Enim, quo. Libero explicabo numquam
-                    ratione laborum quam, vitae, eveniet quaerat at sint et, ad
-                    dicta obcaecati impedit molestias reprehenderit ipsam?
-                </p>
             </div>
         </div>
     )

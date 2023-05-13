@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Purpose = () => {
@@ -10,7 +11,9 @@ const Purpose = () => {
                     </h1>
 
                     <div className="button-container">
-                        <a href="#">Contact Us</a>
+                        <Link href="/contact" prefetch={false}>
+                            Contact Us
+                        </Link>
                     </div>
                 </div>
             </div>

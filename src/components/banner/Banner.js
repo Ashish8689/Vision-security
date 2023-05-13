@@ -18,18 +18,17 @@ const Banner = () => {
             >
                 <SwiperSlide className="slider-banner-item">
                     <img
-                        src={'/images/slider/s1.png'}
+                        src={'/images/slider/s3.jpg'}
                         className="slider-banner-image"
-                        alt="Beach"
+                        alt="Fire and security system"
                     />
                     <div className="swiper-content-container">
                         <h2 className="swiper-content-title">
-                            We are digital security system
+                            We are fire security system
                         </h2>
                         <h1 className="swiper-content-subtitle">
-                            Enjoy the vibe of every moment Enjoy the vibe of
-                            every moment Enjoy the vibe of every moment Enjoy
-                            the vibe of every moment
+                            Fire product detection and monitoring technology the
+                            best you will find out in the market.
                         </h1>
                         <div className="swiper-content-button-container">
                             <Link
@@ -45,16 +44,15 @@ const Banner = () => {
                     <img
                         src={'/images/slider/s2.jpg'}
                         className="slider-banner-image"
-                        alt="Beach"
+                        alt="Fire and security system"
                     />
                     <div className="swiper-content-container">
                         <h6 className="swiper-content-title">
                             We are digital security system
                         </h6>
                         <h5 className="swiper-content-subtitle">
-                            Enjoy the vibe of every moment Enjoy the vibe of
-                            every moment Enjoy the vibe of every moment Enjoy
-                            the vibe of every moment
+                            Your security is our priority and we are here to
+                            provide you the best service.
                         </h5>
                         <div className="swiper-content-button-container">
                             <Link

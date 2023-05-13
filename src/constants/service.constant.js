@@ -71,49 +71,49 @@ export const SERVICE_PAGE_LIST = [
 ]
 
 export const FIRE_FIGHTING_KEY_HIGHLIGHT = [
-    'Lorem ipsum dolor sit, amet consectetur',
-    'Lorem ipsum dolor sit, amet consectetur',
-    'Lorem ipsum dolor sit, amet consectetur',
-    'Lorem ipsum dolor sit, amet consectetur',
-    'Lorem ipsum dolor sit, amet consectetur',
+    'Fire Detection Systems',
+    'Fire Extinguishers',
+    'Fire hydrants',
+    'Smoke detectors',
+    'Automated sprinkler systems',
 ]
 
 export const ACCESS_CONTROL_KEY_HIGHLIGHT = [
-    'Lorem ipsum dolor sit, amet consectetur',
-    'Lorem ipsum dolor sit, amet consectetur',
-    'Lorem ipsum dolor sit, amet consectetur',
-    'Lorem ipsum dolor sit, amet consectetur',
-    'Lorem ipsum dolor sit, amet consectetur',
+    'Authentication methods make easier the whole process',
+    'Easily integrate with other systems',
+    'Scalability and flexibility',
+    'Prevent unauthorized access to or hacking of your access control system.',
+    'Make the system user-friendly and informative.',
 ]
 
 export const CCTV_KEY_HIGHLIGHT = [
-    'Lorem ipsum dolor sit, amet consectetur',
-    'Lorem ipsum dolor sit, amet consectetur',
-    'Lorem ipsum dolor sit, amet consectetur',
-    'Lorem ipsum dolor sit, amet consectetur',
-    'Lorem ipsum dolor sit, amet consectetur',
+    'Visibility of Entire Business Premises',
+    'Reduce Insurance Claims and Premiums',
+    'Peace of Mind',
+    'Provides Camera Footage for Evidence',
+    'Reduce Security Costs',
 ]
 
 export const FIRE_ALARM_KEY_HIGHLIGHT = [
-    'Lorem ipsum dolor sit, amet consectetur',
-    'Lorem ipsum dolor sit, amet consectetur',
-    'Lorem ipsum dolor sit, amet consectetur',
-    'Lorem ipsum dolor sit, amet consectetur',
-    'Lorem ipsum dolor sit, amet consectetur',
+    'Quickly determine the location of a fire.',
+    'Specific actions can be programmed by the user.',
+    'Reduced likelihood and better handling of false alarms.',
+    'More reliability, less likely to lose connection.',
+    'Lower overall cost of wiring.',
+    'Ability to monitor integrity of the system, with detector health checks.',
 ]
 
 export const NGS_KEY_HIGHLIGHT = [
-    'Lorem ipsum dolor sit, amet consectetur',
-    'Lorem ipsum dolor sit, amet consectetur',
-    'Lorem ipsum dolor sit, amet consectetur',
-    'Lorem ipsum dolor sit, amet consectetur',
-    'Lorem ipsum dolor sit, amet consectetur',
+    'Zero ozone depleting potential',
+    'Existing halon control system can be adapted for use with 3M™ Novec™ 1230 fluid',
+    'Requires minimal storage space',
+    'Negligible global warming potential',
+    'Submitted for inclusion in ISO and CEN design standards',
 ]
 
 export const PA_SYSTEM_KEY_HIGHLIGHT = [
-    'Lorem ipsum dolor sit, amet consectetur',
-    'Lorem ipsum dolor sit, amet consectetur',
-    'Lorem ipsum dolor sit, amet consectetur',
-    'Lorem ipsum dolor sit, amet consectetur',
-    'Lorem ipsum dolor sit, amet consectetur',
+    'PA systems are often used in schools and universities to make announcements, provide instructions, and communicate emergency alerts.',
+    'PA systems are commonly used in stadiums and sports arenas to announce game scores, player introductions, and other information related to the event.',
+    'PA systems are used in airports, train stations, and bus terminals to provide information on schedules, delays, and other important travel information.',
+    'PA systems are used in shopping malls, convention centers, and other large commercial buildings to make announcements, provide directions, and promote events.',
 ]

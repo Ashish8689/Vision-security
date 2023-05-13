@@ -21,8 +21,8 @@ function Footer() {
                             </div>
                             <div className="mini-flex-right">
                                 <h5>
-                                    <a href="mailto:support@ktrmachinery.com">
-                                        support@ktrmachinery.com
+                                    <a href="mailto:firealarmvision@gmail.com">
+                                        firealarmvision@gmail.com
                                     </a>
                                 </h5>
                             </div>
@@ -35,15 +35,11 @@ function Footer() {
                             </div>
                             <div className="mini-flex-right">
                                 <h5>
-                                    <a href="tel: 6353753933">
-                                        {' '}
-                                        +91 6353-75-3933
-                                    </a>{' '}
+                                    <a href="tel:9653123581"> +91 9653123581</a>{' '}
                                     /{' '}
-                                    <a href="tel: 8355992793">
-                                        {' '}
-                                        +91 8355-99-2793
-                                    </a>
+                                    <a href="tel:9920558911"> +91 9920558911</a>{' '}
+                                    /{' '}
+                                    <a href="tel:8850642551"> +91 8850642551</a>
                                 </h5>
                             </div>
                         </div>
@@ -54,11 +50,7 @@ function Footer() {
                                 <Location className="icon" />
                             </div>
                             <div className="mini-flex-right">
-                                <h5>
-                                    Shop No 251 , Malwani Gate No 6, near Raj
-                                    Computer Academy, Malad West, Mumbai,
-                                    Maharashtra 400095
-                                </h5>
+                                <h5>Mumbai Maharashtra</h5>
                             </div>
                         </div>
                     </div>
@@ -67,20 +59,22 @@ function Footer() {
             <div className="footer-body">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div className="col-lg-5 col-md-6 col-sm-6 col-12">
                             <div className="footer-logo-container">
                                 <h1 className="footer-title">
                                     Vision Fire & <span>Security Systems</span>
                                 </h1>
                             </div>
                             <p className="footer-para">
-                                A network of smart two-wheeler repair company
-                                that primarily focus on addressing the customer
-                                needs by providing standardized services at
-                                predictable quality & cost.{' '}
+                                Vision Fire & Security Systems is a leading Fire
+                                Protection System Integration Provider with
+                                high-end Consultation, Distribution and
+                                Installation services with a proven track record
+                                of delivering solutions for Fire Protection &
+                                Security Risks involved in an organization.
                             </p>
 
-                            <div className="social-icon-container">
+                            {/* <div className="social-icon-container">
                                 <div className="social-icon-block">
                                     <a
                                         href="https://www.facebook.com/KTR-Machinery-107841851554602"
@@ -108,36 +102,36 @@ function Footer() {
                                         <Twitter className="icon" />
                                     </a>
                                 </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-2 col-md-6 col-sm-6 col-12">
-                            <h4 className="footer-column-header">Company</h4>
-                            <ul>
-                                {NAV_LINKS.map(({ label, link }) => (
-                                    <li key={label}>
-                                        <Link href={link} prefetch={false}>
-                                            {label}
-                                        </Link>
-                                    </li>
-                                ))}
-                            </ul>
-                        </div>
-
-                        <div className="col-lg-2 col-md-6 col-sm-6 col-12">
-                            <h4 className="footer-column-header">Company</h4>
-                            <ul>
-                                {NAV_LINKS.map(({ label, link }) => (
-                                    <li key={label}>
-                                        <Link href={link} prefetch={false}>
-                                            {label}
-                                        </Link>
-                                    </li>
-                                ))}
-                            </ul>
+                            </div> */}
                         </div>
 
                         <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <h4 className="footer-column-header">Company</h4>
+                            <ul>
+                                {NAV_LINKS.map(({ label, link }) => (
+                                    <li key={label}>
+                                        <Link href={link} prefetch={false}>
+                                            {label}
+                                        </Link>
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+
+                        {/* <div className="col-lg-2 col-md-6 col-sm-6 col-12">
+                            <h4 className="footer-column-header">Company</h4>
+                            <ul>
+                                {NAV_LINKS.map(({ label, link }) => (
+                                    <li key={label}>
+                                        <Link href={link} prefetch={false}>
+                                            {label}
+                                        </Link>
+                                    </li>
+                                ))}
+                            </ul>
+                        </div> */}
+
+                        <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                             <h4 className="footer-column-header">
                                 Get Free Estimate
                             </h4>
@@ -149,7 +143,11 @@ function Footer() {
                             </p>
 
                             <div className="whatsapp-button">
-                                <a href="#">
+                                <a
+                                    href="https://wa.me/+919653123581"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
                                     <Whatsapp className="icon" />
                                     <span>WhatsApp</span>
                                 </a>

@@ -22,7 +22,7 @@ function SecuritySolution({ className }) {
                         <div className="section-right">
                             <div className="content">
                                 <h1 className="title">
-                                    Best Solution For Security System
+                                    Best Solution For Fire And Security System
                                 </h1>
                                 <p className="para">
                                     "Vision Fire & Security System" are one of

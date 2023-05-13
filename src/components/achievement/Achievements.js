@@ -5,7 +5,7 @@ const Achievements = () => {
     const achievements = [
         {
             title: 'Years of Experience',
-            count: '15+',
+            count: '5+',
         },
         {
             title: 'Service Worker',
@@ -13,7 +13,7 @@ const Achievements = () => {
         },
         {
             title: 'Loyal Customer',
-            count: '4,000+',
+            count: '400+',
         },
         {
             title: 'Service Provided',

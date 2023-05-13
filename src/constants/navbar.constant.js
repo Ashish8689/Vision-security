@@ -15,10 +15,10 @@ export const NAV_LINKS = [
         label: 'About',
         link: '/about',
     },
-    {
-        label: 'Gallery',
-        link: '/gallery',
-    },
+    // {
+    //     label: 'Gallery',
+    //     link: '/gallery',
+    // },
     {
         label: 'Contact Us',
         link: '/contact',

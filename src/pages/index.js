@@ -28,7 +28,7 @@ export default function Home(props) {
                 <QuickService />
                 <SecuritySolution />
                 <Services />
-                <Gallery />
+                {/* <Gallery /> */}
                 <Achievements />
                 <Benefits />
                 <Testimonial />

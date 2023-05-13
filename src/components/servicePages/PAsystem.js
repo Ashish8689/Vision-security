@@ -6,38 +6,39 @@ const PAsystem = () => {
     return (
         <div className="service-content-container">
             <div className="service-content-img-container">
-                <img src="/images/slider/s1.png" alt="service" />
+                <img src="/images/pa.jpeg" alt="pa system" />
             </div>
 
             <div className="service-content">
-                <h3>We give the best Services</h3>
+                <h3>Public Address Systems</h3>
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Harum deleniti qui ut perferendis dolor dignissimos earum
-                    autem non commodi. Enim, quo. Libero explicabo numquam
-                    ratione laborum quam, vitae, eveniet quaerat at sint et, ad
-                    dicta obcaecati impedit molestias reprehenderit ipsam?.
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Harum deleniti qui ut perferendis dolor dignissimos earum
-                    autem non commodi. Enim, quo. Libero explicabo numquam
-                    ratione laborum quam, vitae, eveniet quaerat at sint et, ad
-                    dicta obcaecati impedit molestias reprehenderit ipsam?
+                    A public address (PA) system is a type of audio system that
+                    is used to amplify sound in public spaces such as schools,
+                    stadiums, airports, train stations, shopping malls, and
+                    other large public venues. The primary purpose of a PA
+                    system is to provide clear and intelligible communication to
+                    a large audience, either for informational or emergency
+                    purposes. PA systems typically consist of a microphone, an
+                    amplifier, and loudspeakers and may also include other
+                    components such as mixers, equalizers, compressors, and
+                    processors.
                 </p>
 
                 <div className="row my-5">
                     <div className="col-lg-6 col-md-12 col-12">
                         <div className="service-content-mini-img-container">
-                            <img src="/images/slider/s1.png" alt="service" />
+                            <img src="/images/pa.jpeg" alt="pa system" />
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-12 col-12">
                         <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing
-                            elit. Harum deleniti qui ut perferendis dolor
-                            dignissimos earum autem non commodi. Enim, quo.
-                            Libero explicabo numquam ratione laborum quam,
-                            vitae, eveniet quaerat at sint et, ad dicta
-                            obcaecati impedit molestias reprehenderit ipsam?
+                            A typical PA system works by capturing sound waves
+                            from a microphone or other input source, converting
+                            them into electrical signals, amplifying the
+                            signals, and then reproducing them through one or
+                            more loudspeakers. The sound waves are distributed
+                            evenly throughout the space, allowing people to hear
+                            them clearly and without distortion.
                         </p>
 
                         <div className="row highlight">
@@ -54,23 +55,6 @@ const PAsystem = () => {
                         </div>
                     </div>
                 </div>
-
-                <h3>We give the best Services</h3>
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Harum deleniti qui ut perferendis dolor dignissimos earum
-                    autem non commodi. Enim, quo. Libero explicabo numquam
-                    ratione laborum quam, vitae, eveniet quaerat at sint et, ad
-                    dicta obcaecati impedit molestias reprehenderit ipsam?
-                </p>
-
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Harum deleniti qui ut perferendis dolor dignissimos earum
-                    autem non commodi. Enim, quo. Libero explicabo numquam
-                    ratione laborum quam, vitae, eveniet quaerat at sint et, ad
-                    dicta obcaecati impedit molestias reprehenderit ipsam?
-                </p>
             </div>
         </div>
     )

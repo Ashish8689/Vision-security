@@ -6,38 +6,42 @@ const FireFighting = () => {
     return (
         <div className="service-content-container">
             <div className="service-content-img-container">
-                <img src="/images/slider/s1.png" alt="service" />
+                <img src="/images/slider/s3.jpg" alt="Fire Fighting" />
             </div>
 
             <div className="service-content">
-                <h3>We give the best Services</h3>
+                <h3>Fire Fighting</h3>
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Harum deleniti qui ut perferendis dolor dignissimos earum
-                    autem non commodi. Enim, quo. Libero explicabo numquam
-                    ratione laborum quam, vitae, eveniet quaerat at sint et, ad
-                    dicta obcaecati impedit molestias reprehenderit ipsam?.
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Harum deleniti qui ut perferendis dolor dignissimos earum
-                    autem non commodi. Enim, quo. Libero explicabo numquam
-                    ratione laborum quam, vitae, eveniet quaerat at sint et, ad
-                    dicta obcaecati impedit molestias reprehenderit ipsam?
+                    Fire Services include the installation, maintenance,
+                    monitoring, and retrofit of fire safety systems such as fire
+                    hydrant systems, fire sprinkler systems, fire alarms and
+                    detection systems and fire suppression systems. Fire
+                    Services cater to the needs of various sectors including
+                    construction, pharmaceutical restaurants, retail,
+                    healthcare, assisted living, education, government,
+                    hospitality to name a few.
                 </p>
 
                 <div className="row my-5">
                     <div className="col-lg-6 col-md-12 col-12">
                         <div className="service-content-mini-img-container">
-                            <img src="/images/slider/s1.png" alt="service" />
+                            <img
+                                src="/images/slider/s3.jpg"
+                                alt="Fire Fighting"
+                            />
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-12 col-12">
                         <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing
-                            elit. Harum deleniti qui ut perferendis dolor
-                            dignissimos earum autem non commodi. Enim, quo.
-                            Libero explicabo numquam ratione laborum quam,
-                            vitae, eveniet quaerat at sint et, ad dicta
-                            obcaecati impedit molestias reprehenderit ipsam?
+                            Fire Services include the installation, maintenance,
+                            monitoring, and retrofit of fire safety systems such
+                            as fire hydrant systems, fire sprinkler systems,
+                            fire alarms and detection systems and fire
+                            suppression systems. Fire Services cater to the
+                            needs of various sectors including construction,
+                            pharmaceutical restaurants, retail, healthcare,
+                            assisted living, education, government, hospitality
+                            to name a few.
                         </p>
 
                         <div className="row highlight">
@@ -54,23 +58,6 @@ const FireFighting = () => {
                         </div>
                     </div>
                 </div>
-
-                <h3>We give the best Services</h3>
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Harum deleniti qui ut perferendis dolor dignissimos earum
-                    autem non commodi. Enim, quo. Libero explicabo numquam
-                    ratione laborum quam, vitae, eveniet quaerat at sint et, ad
-                    dicta obcaecati impedit molestias reprehenderit ipsam?
-                </p>
-
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Harum deleniti qui ut perferendis dolor dignissimos earum
-                    autem non commodi. Enim, quo. Libero explicabo numquam
-                    ratione laborum quam, vitae, eveniet quaerat at sint et, ad
-                    dicta obcaecati impedit molestias reprehenderit ipsam?
-                </p>
             </div>
         </div>
     )
