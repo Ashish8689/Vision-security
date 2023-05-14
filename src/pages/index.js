@@ -8,12 +8,12 @@ import Purpose from '@/components/purpose/Purpose'
 import SecuritySolution from '@/components/SecuritySolution'
 import Services from '@/components/services/Services'
 import Testimonial from '@/components/testimonial/Testimonial'
-import { CONTACT_META } from '@/constants/meta.constant'
+import { CONTACT_META, HOME_META } from '@/constants/meta.constant'
 
 export function getServerSideProps(context) {
     return {
         props: {
-            metaData: CONTACT_META,
+            metaData: HOME_META,
             link: context.resolvedUrl,
         },
     }

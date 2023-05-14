@@ -2,14 +2,14 @@ import React from 'react'
 
 const SystemItem = ({ data: { name, application, advantages, image } }) => {
     return (
-        <div className="row m-5">
+        <div className="row my-5">
             <div className="col-md-4 col-12">
                 <div className="system-image-container">
                     <img src={image} className="system-image" />
                 </div>
             </div>
             <div className="col-md-8 col-12">
-                <h2>{name}</h2>
+                <h2 className="mt-3">{name}</h2>
                 <div className="row">
                     <div className="col-6">
                         <h3>Applications:</h3>

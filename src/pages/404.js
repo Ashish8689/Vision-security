@@ -1,10 +1,20 @@
 import Image from 'next/image'
 import MetaGenerator from '../components/metaGenerator/MetaGenerator'
+import { PAGE_NOT_FOUND_META } from '@/constants/meta.constant'
 
-const PageNotFound = () => {
+export function getServerSideProps(context) {
+    return {
+        props: {
+            metaData: PAGE_NOT_FOUND_META,
+            link: context.resolvedUrl,
+        },
+    }
+}
+
+const PageNotFound = (props) => {
     return (
         <>
-            <MetaGenerator link="/404" metaData={'PAGE_NOT_FOUND_META'} />
+            <MetaGenerator {...props} />
             <div className="grid h-screen place-items-center bg-[#F4F2F4]">
                 <section className="grid place-items-center">
                     <Image
